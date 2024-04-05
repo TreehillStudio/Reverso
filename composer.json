@@ -1,0 +1,43 @@
+{
+    "name": "treehillstudio/reverso-php",
+    "type": "library",
+    "description": "Inofficial Reverso API Client Library",
+    "keywords": [
+        "reverso",
+        "translation",
+        "translator",
+        "api"
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "psr/log": "^1.1 || ^2.0 || ^3.0",
+        "psr/http-client": "^1.0",
+        "php-http/discovery": "^1.18",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "psr/http-client-implementation": "*",
+        "psr/http-factory-implementation": "*",
+        "php-http/multipart-stream-builder": "^1.3"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reverso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Jakobi",
+            "email": "office@treehillstudio.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
